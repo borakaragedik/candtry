@@ -1,35 +1,70 @@
 {
-    "preset": "laravel",
-    "rules": {
-        "no_extra_blank_lines": {
-            "tokens": [
-                "curly_brace_block",
-                "extra",
-                "throw",
-                "use"
-            ]
-        },
-        "blank_line_before_statement": {
-            "statements": [
-                "break",
-                "continue",
-                "declare",
-                "if",
-                "return",
-                "throw",
-                "try"
-            ]
-        },
-        "global_namespace_import": {
-            "import_classes": true
-        },
-        "trailing_comma_in_multiline": {
-            "elements": [
-                "arguments",
-                "arrays",
-                "match",
-                "parameters"
-            ]
-        }
-    }
+  "preset": "laravel",
+  "rules": {
+    "indentation_type": false,
+    "align_multiline_comment": {
+      "comment_type": "all_multiline"
+    },
+    "function_declaration": {
+      "closure_fn_spacing": "none"
+    },
+    "group_import": true,
+    "single_import_per_statement": false,
+    "ordered_imports": {
+      "sort_algorithm": "alpha",
+      "imports_order": [
+        "const",
+        "class",
+        "function"
+      ]
+    },
+    "php_unit_method_casing": false,
+    "single_line_empty_body": false,
+    "Pint/phpdoc_type_annotations_only": false,
+    "phpdoc_order": {
+      "order": [
+        "package",
+        "author",
+        "since",
+        "throwable",
+        "throws",
+        "var",
+        "property",
+        "property-read",
+        "property-write",
+        "method",
+        "param",
+        "return"
+      ]
+    },
+    "phpdoc_separation": {
+      "groups": [
+        [
+          "package",
+          "author",
+          "since",
+          "throwable",
+          "throws"
+        ],
+        [
+          "var"
+        ],
+        [
+          "property",
+          "property-read",
+          "property-write"
+        ],
+        [
+          "method"
+        ],
+        [
+          "param"
+        ],
+        [
+          "return"
+        ]
+      ]
+    },
+    "phpdoc_trim_consecutive_blank_line_separation": true
+  }
 }
