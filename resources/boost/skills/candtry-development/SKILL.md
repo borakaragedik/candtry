@@ -4,7 +4,7 @@ description: >
   Configure and apply the Candtry package in Laravel applications.
 license: MIT
 metadata:
-  author: Olga Karagedik
+  author: Bora Karagedik
 ---
 
 # Candtry

@@ -8,4 +8,4 @@ Only the latest major version receives security fixes.
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within Candtry, please send an email to Olga Karagedik at olgakaragedik@outlook.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Candtry, please send an email to Bora Karagedik at borakaragedik@outlook.com. All security vulnerabilities will be promptly addressed.

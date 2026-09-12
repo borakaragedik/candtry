@@ -77,7 +77,7 @@ Please review [our security policy](.github/SECURITY.md) on how to report securi
 
 ## Credits
 
-- [Olga Karagedik](https://github.com/borakaragedik)
+- [Bora Karagedik](https://github.com/borakaragedik)
 - [All Contributors](../../contributors)
 
 ## License
